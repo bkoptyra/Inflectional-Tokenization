@@ -1,0 +1,8 @@
+pretrained_model_name_or_path: meta-llama/Llama-3.1-8B
+torch_dtype: bfloat16
+attn_implementation: flash_attention_2
+low_cpu_mem_usage: False
+use_lora: False
+model_max_length: 8192
+tokenizer_name: meta-llama/Llama-3.1-8B
+use_fast_tokenizer: True

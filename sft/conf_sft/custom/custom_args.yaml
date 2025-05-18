@@ -1,0 +1,17 @@
+timeout: 3600
+model_on_tmp_dir: False
+dataset_temp_on_tmp_dir: True
+completion_only: True
+chat_template: False
+instruction_template: '[INST]'
+response_template: '[/INST]'
+add_prefix_tokens: True
+change_eos_token: False
+new_eos_token: <|eot_id|>
+enable_input_require_grads: True
+custom_tokenizer: False
+lang: ''
+dictionary_path: ''
+save_to_s3: True
+num_processes: 32
+multiple_seeds: 10

@@ -1,0 +1,12 @@
+train_data_path: pdt_generative_dataset
+enroll_conversations: False
+hf_dataset: True
+dataset_special_type: pdt
+s3_data: False
+padding_type: longest
+curated_datasets: curated_dataset
+original_datasets: original_dataset
+external_datasets: external_dataset
+synthetic_datasets: synthetic_dataset
+rag_data: rag_dataset
+training_subfolders: data

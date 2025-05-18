@@ -1,0 +1,17 @@
+timeout: 1000
+model_from_config: True
+save_to_s3: False
+enable_input_require_grads: True
+checkpoint_on_tmpdir: False
+s3_rclone_output_dir: no
+save_to_disk_dataset: True
+add_new_layers: False
+new_state_dict_path: no
+add_padding_token: False
+new_pad_token: no
+freeze_old_layers: False
+attention_mask_monkey_patch: True
+custom_tokenizer: True
+lang: cz
+dictionary_path: 'split_dictionary_czech_lcs.pkl'
+is_datasetdict: True

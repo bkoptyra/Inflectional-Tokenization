@@ -1,0 +1,11 @@
+compute_environment: LOCAL_MACHINE
+distributed_type: DEEPSPEED
+deepspeed_config:
+  deepspeed_config_file: sft/conf_sft/deepspeed/base_config.json
+  zero3_init_flag: true
+  zero_stage: 3
+downcast_bf16: 'no'
+tpu_env: []
+tpu_use_cluster: false
+tpu_use_sudo: false
+use_cpu: false
